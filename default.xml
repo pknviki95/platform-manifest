@@ -1,0 +1,21 @@
+<manifest>
+
+<remote	
+	name="origin"
+	fetch="https://android.googlesource.com/"
+	review="https://android-review.googlesource.com/"
+	revision="master"/>
+	
+<default
+	remote="origin"
+	revision="master"
+	sync-j="4"/>
+	
+<project
+	group="aosp"
+	name="platform/art"
+	path="art"
+	revision="a95b62a8c2bc4cf5e95857fd59c70cb166f71ed4"
+	upstream="refs/heads/android11-qpr3-release"/>
+
+</manifest>
